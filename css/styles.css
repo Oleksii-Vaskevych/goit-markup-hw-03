@@ -103,7 +103,13 @@ ul {
   color: #FFFFFF;
 }
 
-.button-hero.button {
+.button {
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+.button-hero {
+ border: none;
  font-weight: 700;
  font-size: 16px;
  line-height: 1.88;
@@ -118,10 +124,7 @@ button {
   cursor: pointer;
 }
 
-.button {
-  background: #F5F4FA;
-  border-radius: 4px;
-}
+
 
 .button:hover,
 .button:focus {
