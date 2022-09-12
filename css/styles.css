@@ -234,9 +234,13 @@ button {
 
 .button:hover,
 .button:focus {
-  padding: 6px 25px;
+  /* padding: 6px 25px; */
   color: #ffffff;
   background-color: var(--accent-color);
+}
+
+.button:active {
+  padding: 6px 25px;
 }
 
 /*------------- БЛОК 1 -------------*/
